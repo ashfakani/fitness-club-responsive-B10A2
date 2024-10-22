@@ -1,9 +1,142 @@
 /* Fonts Styles  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 .inter-main-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* shared style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.display-flex {
+    display: flex;
+
+}
+
+.center-align {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    color: white;
+    font-size: 1.43rem;
+    padding: 8px 22px;
+    border-radius: 42px;
+    border: 0px;
+}
+
+.button-description {
+    color: white;
+    font-size: 1rem;
+}
+
+/* header styles  */
+.header {
+    max-width: 1920px;
+    padding: 57px 247px;
+    /* background-color: rgba(17, 17, 17, 1); */
+    background-color: rgba(17, 17, 17, 1)
+}
+
+.header-title {
+    font-size: 2.9rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+/* navbar styles  */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-links ul {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px 4px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: white;
+}
+
+/* banner styles  */
+.banner-container {
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-size: 6.3rem;
+    margin-bottom: 28px;
+    color: white;
+}
+
+.banner-description {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.down-app-btn {
+    padding: 8px 22px;
+    font-size: 1.43rem;
+    background-color: #111111;
+    color: white;
+    border-radius: 42px;
+    border: 0px;
+
+}
+
+
+/* image button design style  */
+
+.banner-image-container {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.video-tutorial,
+.workout-videos {
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.64);
+    border: 0px;
+    border-radius: 12px;
+    padding: 20px 23px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+.video-tutorial {
+    bottom: 70px;
+    left: -90px;
+}
+
+.workout-videos {
+    top: 120px;
+    right: -70px;
 }
