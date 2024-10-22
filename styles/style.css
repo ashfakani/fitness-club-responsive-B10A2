@@ -82,6 +82,11 @@
     color: white;
 }
 
+/* menu or hamburger display none for big screen  */
+.breadcrumb-icon {
+    display: none;
+}
+
 /* banner styles  */
 .banner-container {
     justify-content: space-between;
@@ -172,20 +177,25 @@
     }
 
 
-    .nav-links ul li {
-        list-style: none;
-        margin-right: 5px;
+    /* menu hamburger design  */
+
+    .breadcumb {
+        display: none;
     }
 
-    .nav-link {
-        font-size: 0.5rem;
-        color: white;
+
+    .breadcrumb-icon {
+        display: block;
+        font-size: 24px;
     }
+
+
 
     .header-title {
         font-size: 0.9rem;
         font-weight: 800;
         color: #E6533C;
+        padding-top: 5px;
     }
 
     .banner-container {
