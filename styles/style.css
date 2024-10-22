@@ -30,6 +30,8 @@
 
 .center-align {
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .btn-primary {
@@ -161,6 +163,59 @@
     top: 120px;
     right: -90px;
 }
+
+
+/* main section styles  */
+main {
+    background-color: black;
+}
+
+
+/* habit-section-styles  */
+
+
+.section-heading {
+    font-size: 3.8rem;
+    color: white;
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+.rule-description {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rule-title {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.exercise-rules {
+    margin-top: 75px;
+}
+
+.excercise-rules-container {
+    max-width: 1388px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.excercise-rule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+
+.excercise-rule img {
+    border-radius: 50%;
+}
+
+
 
 
 /* media query  */
