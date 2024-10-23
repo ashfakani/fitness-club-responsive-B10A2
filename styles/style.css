@@ -298,6 +298,111 @@ main {
 
 
 
+/* 
+bmi main secion styles  */
+
+.bmi-container {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 34, 34, 1);
+
+}
+
+.bmi-calc-chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bmi-sub-heading {
+    margin: 30px;
+}
+
+.bmi-calc-description {
+    margin-bottom: 30px;
+}
+
+
+
+/* bmi chart design  */
+
+
+.bmi-sub-heading {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.bmi-table,
+.bmi-table th,
+.bmi-table td {
+    border: 1px solid lightgray;
+}
+
+.bmi-table th {
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.bmi-table td {
+    padding: 8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+/* bmi calculator design  */
+
+.bmi-form-container {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Form group for grid layout */
+.bmi-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.form-group {
+    /* grid-column: span 1; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/*bmi calculator input fields styling */
+.input-field {
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.calc-btn {
+    margin-top: 10px;
+}
+
+
+
+
 
 
 /* media query  */
