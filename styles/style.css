@@ -247,6 +247,24 @@ main {
 
 }
 
+/* workout youtube section styles */
+
+.workout-yt {
+    max-width: 1378px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 18px;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-around;
+
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
 /* team-members-design-styles  */
 
 .team-title {
@@ -609,8 +627,20 @@ ul {
         font-size: 0.6rem;
     }
 
-    ..poweredby {
+    .poweredby {
         font-size: 0.7rem;
     }
 
+
+    /* workout with youtube related styles  */
+
+    .workout-yt {
+        display: flex;
+        flex-direction: column;
+        max-width: 70vw;
+    }
+
+    .ifrmae-container {
+        width: 100%;
+    }
 }
