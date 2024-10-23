@@ -43,6 +43,11 @@
     border: 0px;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: rgb(226, 223, 14);
+}
+
 .button-description {
     color: white;
     font-size: 1rem;
@@ -116,6 +121,10 @@
 
 }
 
+.down-app-btn:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
 
 /* image button design style  */
 
