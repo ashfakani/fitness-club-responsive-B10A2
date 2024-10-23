@@ -440,7 +440,8 @@ bmi main secion styles  */
         padding-top: 5px;
     }
 
-    .banner-container {
+    .banner-container,
+    .bmi-calc-chart-container {
         flex-direction: column;
     }
 
@@ -534,5 +535,8 @@ bmi main secion styles  */
         margin: 30px;
 
     }
+
+
+
 
 }
