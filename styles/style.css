@@ -584,7 +584,33 @@ ul {
 
     }
 
+    /* footer related media query  */
 
+    .footer {
+        flex-direction: column;
+        gap: 40px;
+        align-items: first baseline;
+        justify-content: center;
+        /* padding: 100px;
+        margin: 0 auto;
+        text-align: start; */
+    }
 
+    .footer .header-title {
+        font-size: 3rem;
+    }
+
+    .get-started {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .footer-option {
+        font-size: 0.6rem;
+    }
+
+    ..poweredby {
+        font-size: 0.7rem;
+    }
 
 }
