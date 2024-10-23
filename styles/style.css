@@ -244,6 +244,60 @@ main {
 
 }
 
+/* team-members-design-styles  */
+
+.team-title {
+    margin-bottom: 50px;
+}
+
+.team-members-container {
+    max-width: 1378px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color: rgba(34, 34, 34, 1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 60px;
+}
+
+.team-member {
+    position: relative;
+    width: 100%;
+}
+
+.team-member-name,
+.team-member-role {
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0 10px;
+}
+
+.team-member-name {
+    bottom: 40px;
+    font-size: 1rem;
+}
+
+.team-member-role {
+    bottom: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.team-member-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 
 /* media query  */
 
@@ -338,7 +392,8 @@ main {
         color: white;
     }
 
-    .excercise-rules-container {
+    .excercise-rules-container,
+    .team-members-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
@@ -358,7 +413,7 @@ main {
 
     /* run extra section small device styles  */
     .run-extra {
-        max-width: 450px;
+        max-width: 90vw;
         flex-direction: column;
         text-align: center;
         /* justify-content: center;
@@ -372,4 +427,5 @@ main {
         margin: 30px;
 
     }
+
 }
