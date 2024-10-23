@@ -168,6 +168,8 @@
 /* main section styles  */
 main {
     background-color: black;
+    padding-bottom: 88px;
+
 }
 
 
@@ -401,6 +403,34 @@ bmi main secion styles  */
 }
 
 
+/* footer design styles  */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 100px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.get-started {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-option {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+ul {
+    list-style: none;
+}
 
 
 
