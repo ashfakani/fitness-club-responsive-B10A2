@@ -404,11 +404,15 @@ bmi main secion styles  */
 
 
 /* footer design styles  */
+
+footer {
+    background-color: rgba(34, 34, 34, 1);
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(34, 34, 34, 1);
     padding: 100px;
     margin: 0 auto;
     text-align: start;
@@ -432,6 +436,20 @@ ul {
     list-style: none;
 }
 
+.horizontal-line {
+    color: lightgray;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.poweredby {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
 
 
 
