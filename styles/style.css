@@ -224,6 +224,7 @@ main {
 .run-extra {
     max-width: 1378px;
     margin: 0 auto;
+    padding: 20px;
     border-radius: 18px;
     background-color: rgba(34, 34, 34, 1);
     display: flex;
@@ -259,7 +260,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
-    padding: 60px;
+    padding: 20px;
 }
 
 .team-member {
@@ -412,8 +413,9 @@ main {
     }
 
     /* run extra section small device styles  */
-    .run-extra {
-        max-width: 90vw;
+    .run-extra,
+    .team-members-container {
+        max-width: 70vw;
         flex-direction: column;
         text-align: center;
         /* justify-content: center;
